@@ -1,0 +1,11 @@
+INSERT INTO DOCUMENT (id,date, document_number, update_date)  VALUES (1, '2021-03-25', 'CPP-1/16', '2021-03-25');
+INSERT INTO DOCUMENT (id,date, document_number, update_date)  VALUES (2, '2021-04-26', 'LC-123', '2021-04-26');
+INSERT INTO DOCUMENT (id,date, document_number, update_date)  VALUES (3, '2021-04-28', 'CPP-1/16-1', '2021-05-06');
+INSERT INTO DOCUMENT (id,date, document_number, update_date)  VALUES (4, '2021-05-04', 'TTT-04.05.21', '2021-05-04');
+INSERT INTO DOCUMENT (id,date, document_number, update_date)  VALUES (5, '2021-05-05', 'Дог.21/1 от 05.05.2021', '2021-05-05');
+INSERT INTO DOCUMENT (id,date, document_number, update_date)  VALUES (6, '2021-05-06', 'ООО Вектор', '2021-05-06');
+INSERT INTO DOCUMENT (id,date, document_number, update_date)  VALUES (7, '2021-05-07', 'ТРПС-1', '2021-05-07');
+INSERT INTO DOCUMENT (id,date, document_number, update_date)  VALUES (8, '2021-05-11', 'Уголь', '2021-05-11');
+INSERT INTO DOCUMENT (id,date, document_number, update_date)  VALUES (9,'2021-05-12', 'Дог.21/1 от 05.05.2021 изм.1', '2021-05-12');
+INSERT INTO DOCUMENT (id,date, document_number, update_date)  VALUES (10, '2021-05-13', 'Прост', '2021-05-13');
+INSERT INTO DOCUMENT (id, date, document_number, update_date) VALUES (11,'2021-05-14', 'Дог.21/1 от 05.05.2021 изм.2', '2021-05-14');

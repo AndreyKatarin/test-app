@@ -3,6 +3,7 @@ package av.katarin.server.data;
 import javax.persistence.Entity;
 import javax.persistence.GeneratedValue;
 import javax.persistence.Id;
+import java.time.LocalDateTime;
 import java.util.Date;
 
 @Entity
@@ -11,15 +12,15 @@ public class Document {
     @GeneratedValue
     private Long id;
 
-    private Date date;
+    private LocalDateTime date;
     private String documentNumber;
     private Date updateDate;
 
-    public Date getDate() {
+    public LocalDateTime getDate() {
         return date;
     }
 
-    public void setDate(Date date) {
+    public void setDate(LocalDateTime date) {
         this.date = date;
     }
 

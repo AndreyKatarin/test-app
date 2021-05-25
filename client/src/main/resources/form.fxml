@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+
+<?import javafx.scene.layout.*?>
+
+<?import javafx.scene.control.TableView?>
+<?import javafx.scene.control.TableColumn?>
+<VBox xmlns="http://javafx.com/javafx"
+      xmlns:fx="http://javafx.com/fxml"
+      fx:controller="av.katarin.client.FormController">
+    <TableView>
+        <columns>
+            <TableColumn text="Дата">
+            </TableColumn>
+            <TableColumn text="№ Договора">
+            </TableColumn>
+            <TableColumn text="Дата обновлния">
+            </TableColumn>
+            <TableColumn text="Актуален">
+            </TableColumn>
+        </columns>
+    </TableView>
+</VBox>
