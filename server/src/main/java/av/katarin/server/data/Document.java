@@ -14,7 +14,7 @@ public class Document {
 
     private LocalDateTime date;
     private String documentNumber;
-    private Date updateDate;
+    private LocalDateTime updateDate;
 
     public LocalDateTime getDate() {
         return date;
@@ -32,11 +32,11 @@ public class Document {
         this.documentNumber = documentNumber;
     }
 
-    public Date getUpdateDate() {
+    public LocalDateTime getUpdateDate() {
         return updateDate;
     }
 
-    public void setUpdateDate(Date updateDate) {
+    public void setUpdateDate(LocalDateTime updateDate) {
         this.updateDate = updateDate;
     }
 
