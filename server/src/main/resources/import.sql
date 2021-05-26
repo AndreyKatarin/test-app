@@ -1,6 +1,6 @@
-INSERT INTO DOCUMENT (id,date, document_number, update_date)  VALUES (1, '2021-03-25', 'CPP-1/16', '2021-03-25');
-INSERT INTO DOCUMENT (id,date, document_number, update_date)  VALUES (2, '2021-04-26', 'LC-123', '2021-04-26');
-INSERT INTO DOCUMENT (id,date, document_number, update_date)  VALUES (3, '2021-04-28', 'CPP-1/16-1', '2021-05-06');
+INSERT INTO DOCUMENT (id,date, document_number, update_date)  VALUES (1, '2021-03-15 12:45:16', 'CPP-1/16', '2021-03-17 12:45:16');
+INSERT INTO DOCUMENT (id,date, document_number, update_date)  VALUES (2, '2021-04-26 12:00:35', 'LC-123', '2021-04-26 12:00:35');
+INSERT INTO DOCUMENT (id,date, document_number, update_date)  VALUES (3, '2021-04-28 00:00:00', 'CPP-1/16-1', '2021-05-06 13:15:06');
 INSERT INTO DOCUMENT (id,date, document_number, update_date)  VALUES (4, '2021-05-04', 'TTT-04.05.21', '2021-05-04');
 INSERT INTO DOCUMENT (id,date, document_number, update_date)  VALUES (5, '2021-05-05', 'Дог.21/1 от 05.05.2021', '2021-05-05');
 INSERT INTO DOCUMENT (id,date, document_number, update_date)  VALUES (6, '2021-05-06', 'ООО Вектор', '2021-05-06');

@@ -7,13 +7,13 @@
 <VBox minHeight="600" minWidth="800" xmlns="http://javafx.com/javafx/8.0.181" xmlns:fx="http://javafx.com/fxml/1" fx:controller="av.katarin.client.FormController">
     <TableView VBox.vgrow="ALWAYS" fx:id="tableView">
         <columns>
-            <TableColumn text="Дата">
+            <TableColumn text="Дата" fx:id="date">
             </TableColumn>
-            <TableColumn text="№ Договора">
+            <TableColumn text="№ Договора" fx:id="documentNumber">
             </TableColumn>
-            <TableColumn text="Дата обновления">
+            <TableColumn text="Дата обновления" fx:id="updateDate">
             </TableColumn>
-            <TableColumn text="Актуален">
+            <TableColumn text="Актуален" fx:id="isActive">
             </TableColumn>
         </columns>
       <columnResizePolicy>

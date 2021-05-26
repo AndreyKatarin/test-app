@@ -8,9 +8,8 @@ import java.util.Collection;
 
 
 public class FXWebClient {
-    private final static String URL = "localhost:8080/documents";
 
-    private Traverson client;
+    private final Traverson client;
 
     public FXWebClient(Traverson client) {
         this.client = client;
@@ -21,6 +20,4 @@ public class FXWebClient {
                 .toObject(new ParameterizedTypeReference<CollectionModel<Document>>() {})
                 .getContent();
     }
-
-
 }
